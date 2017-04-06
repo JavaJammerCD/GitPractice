@@ -1,0 +1,23 @@
+git remote
+
+git clone *url* - downloads the repository at the stated url
+includes all commits ever
+
+git log --oneline - reduced version of all commits
+git log --online | wc -1 - number of commits
+
+git shortlog - see all commits from individuals 
+git shortlog -sn - 
+
+git branch - shows all local branches
+git branch -r - shows remote branches
+
+git tag - shows all versions on repository
+
+git remote add origin *url* - adds local repo to github repo
+can have multiple remote repos
+
+git fetch - pulls down any changes from remote repository
+
+
+
